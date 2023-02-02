@@ -8,7 +8,7 @@ async function init() {
     return error
   }
 
-  console.log(rustApp)
+  console.log(rustApp.grayscale)
 
   const input = document.getElementById('upload')
   const fileReader = new FileReader()
